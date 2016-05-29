@@ -36,13 +36,13 @@ body:before, body:after {
 body:after { clear:both; }
 body {
   color:#222222;
-  font:100.01% / 1.375 Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:100.01% / 1.375 "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", sans-serif;
 }
 h1 {
   font-weight:normal;
   color:#111111;
   margin-bottom:22px;
-  font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, Times, 'Times New Roman', serif, Cambria;
   font-size:2.375em;
   line-height:1.1579;
   border-bottom:1px solid #cccccc;
@@ -52,7 +52,7 @@ h2 {
   font-weight:normal;
   color:#111111;
   margin-bottom:22px;
-  font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family:Georgia, Times, 'Times New Roman', serif, Cambria;
   font-size:1.875em;
   line-height:1.4667;
 }
@@ -60,7 +60,7 @@ h3 {
   font-weight:normal;
   color:#111111;
   margin-bottom:22px;
-  font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, Times, 'Times New Roman', serif, Cambria;
   font-size:1.375em;
   line-height:1;
 }
@@ -68,7 +68,7 @@ h4 {
   font-weight:normal;
   color:#111111;
   margin-bottom:22px;
-  font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family:Georgia, Times, 'Times New Roman', serif, Cambria;
   font-size:1.25em;
   line-height:1.1;
 }
@@ -76,7 +76,7 @@ h5 {
   font-weight:normal;
   color:#111111;
   margin-bottom:22px;
-  font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family:Georgia, Times, 'Times New Roman', serif, Cambria;
   font-size:1em;
   font-weight:bold;
 }
@@ -84,7 +84,7 @@ h6 {
   font-weight:normal;
   color:#111111;
   margin-bottom:22px;
-  font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family:Georgia, Times, 'Times New Roman', serif, Cambria;
   font-size:1em;
   font-weight:bold;
   margin-bottom:0;
@@ -157,7 +157,7 @@ textarea {
   height:15em;
 }
 html {
-  background-color:#eeeeee;
+  background-color:#FF8700;
   overflow:-moz-scrollbars-vertical;
   overflow-y:scroll;
 }
@@ -165,11 +165,12 @@ body {
   margin:0;
   padding:0;
   color:#333333;
-  background-color:#ffffff;
+  background-color:#FFB700;
 }
 #outer-wrap-header {
   padding-top:11px;
   margin-bottom:11px;
+  background-color:#FF8700;
 }
 #inner-wrap-header {
   width:960px;
@@ -209,7 +210,8 @@ body {
   text-align:center;
   font-size:2.5em;
   padding-left:0.2em;
-  text-shadow:#cccccc 2px -2px 2px;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  text-shadow:#FFB700 2px -2px 2px;
 }
 #banner #site-title a { text-decoration:none; }
 #banner #site-slogan {
@@ -217,12 +219,14 @@ body {
   vertical-align:middle;
   text-align:center;
   font-size:1.5em;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
   padding-left:10px;
 }
 #navbar ul.menu {
   list-style-type:none;
   padding:2px 8px;
   margin:0;
+  background: #FF8700;
 }
 #navbar ul.menu li {
   padding:0;
@@ -232,15 +236,16 @@ body {
 #navbar ul.menu li a {
   padding:6px 8px;
   text-decoration:none;
-  border:2px solid transparent;
+/*  border:2px solid transparent;*/
 }
 #navbar ul.menu li a:hover {
-  background:#dddddd;
-  border:2px solid #999999;
+  background: #FFB700;
+  color: black;
+/*  border:2px solid #999999;*/
 }
 #navbar ul.menu li a.selected {
-  background:#cccccc;
-  border:2px solid #999999;
+  background: #FFB700;
+ /* border:2px solid #999999;*/
 }
 #inner-wrap-flash {
   width:960px;
@@ -351,7 +356,7 @@ body {
   background-color:rgba(255,255,255,0.5);
 }
 #outer-wrap-footer {
-  background-color:#eeeeee;
+  background-color:#FF8700;
   border-top:1px solid #bbbbbb;
 }
 #inner-wrap-footer {

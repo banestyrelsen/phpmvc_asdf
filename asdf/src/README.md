@@ -1,7 +1,7 @@
-Lydia, the src directory
+Asdf, the src directory
 =========================
 
-Here is the Lydia src. Each class in a separate directory, besides the bootstrap.php.
+Here is the Asdf src. Each class in a separate directory, besides the bootstrap.php.
 
 Naming standard is:
 

@@ -129,7 +129,8 @@ $asf->config['menus'] = array(
   ),
   'my-navbar' => array(
     'home'      => array('label'=>'About Me', 'url'=>'my'),
-    'content'   => array('label'=>'Content', 'url'=>'content'),
+    'modules' => array('label'=>'Modules', 'url'=>'module'),
+    'content' => array('label'=>'Content', 'url'=>'content'),
     'blog'      => array('label'=>'My Blog', 'url'=>'my/blog'),
     'guestbook' => array('label'=>'Guestbook', 'url'=>'my/guestbook'),
   ),
@@ -161,8 +162,7 @@ $asf->config['menus'] = array(
  * available to the template files.
  */
 $asf->config['theme'] = array(
-  'path'            => 'site/themes/mytheme',
-  //'path'            => 'themes/grid',
+  'path'            => 'themes/grid',
   'parent'          => 'themes/grid',
   'stylesheet'      => 'style.css',
   'template_file'   => 'index.tpl.php',
@@ -174,7 +174,7 @@ $asf->config['theme'] = array(
   'menu_to_region' => array('my-navbar'=>'navbar'),
   'data' => array(
     'header' => 'Asdf',
-    'slogan' => 'The orange MVC',
+    'slogan' => ' - the Awesome Site Development Framework',
     'favicon' => 'logo_80x80.png',
     'logo' => 'logo_80x80.png',
     'logo_width'  => 80,
